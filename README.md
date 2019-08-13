@@ -7,7 +7,7 @@ Git hook to help you write good commit messages.
 Validates commit messages conform to six of [the seven rules of a great git commit message](http://chris.beams.io/posts/git-commit/), plus a couple of extras:
 
 1. [Separate subject from body with a blank line](http://chris.beams.io/posts/git-commit/#separate)
-2. [Limit the subject line to 50 characters](http://chris.beams.io/posts/git-commit/#limit-50)
+2. [Limit the subject line to 50 characters](http://chris.beams.io/posts/git-commit/#limit-50). Here relaxed to 72 characters.
 3. [Capitalize the subject line](http://chris.beams.io/posts/git-commit/#capitalize)
 4. [Do not end the subject line with a period](http://chris.beams.io/posts/git-commit/#end)
 5. [Use the imperative mood in the subject line](http://chris.beams.io/posts/git-commit/#imperative)
@@ -27,7 +27,7 @@ Offers an interactive prompt if any of the rules are detected to be broken.
 At the root of the repository, run:
 
 ```sh
-curl https://cdn.rawgit.com/tommarshall/git-good-commit/v0.6.1/hook.sh > .git/hooks/commit-msg && chmod +x .git/hooks/commit-msg
+curl https://cdn.rawgit.com/akesson/git-good-commit/0.6.1/hook.sh > .git/hooks/commit-msg && chmod +x .git/hooks/commit-msg
 ```
 
 ### Globally
